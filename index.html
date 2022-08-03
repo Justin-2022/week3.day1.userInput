@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>userInput</title>
     <link rel="stylesheet" href="lib/css/style.css">
+    <!-- Added jQuery to code -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 
 <body>
@@ -48,7 +50,12 @@
                 Submit!
             </button>
         </form>
-
+        <!-- Extra Credit Portion: Implement jQuery click and fadeOut functions to replication the fading out effect done in script.js -->
+        <script>
+            $("#submit_button").click(function () {
+            $(".form_container").fadeOut(500);
+            });
+        </script>
     </div>
     </div>
     <!-- Loading JS -->
